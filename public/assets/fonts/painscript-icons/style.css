@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "painscript-icons";
+  src: url("fonts/painscript-icons.eot?asd968");
+  src: url("fonts/painscript-icons.eot?asd968#iefix")
+      format("embedded-opentype"),
+    url("fonts/painscript-icons.ttf?asd968") format("truetype"),
+    url("fonts/painscript-icons.woff?asd968") format("woff"),
+    url("fonts/painscript-icons.svg?asd968#painscript-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "painscript-icons" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-red-text:before {
+  content: "\e910";
+  color: #e74c3c;
+}
+.icon-note:before {
+  content: "\e901";
+}
+.icon-note-filled:before {
+  content: "\e902";
+  color: #2196F3;
+  font-size: 16px;
+}
+.icon-print:before {
+  content: "\e903";
+}
+.icon-unregistered-patients:before {
+  content: "\e90c";
+}
+.icon-offtrack:before {
+  content: "\e904";
+}
+.icon-hint:before {
+  content: "\e905";
+}
+.icon-patients:before {
+  content: "\e906";
+}
+.icon-reports:before {
+  content: "\e909";
+}
+.icon-surveys:before {
+  content: "\e90a";
+}
+.icon-dashboard:before {
+  content: "\e90b";
+}
+.icon-review-cycle:before {
+  content: "\e907";
+}
+.icon-escalated-surveys:before {
+  content: "\e908";
+}
+.icon-patient-in-red:before {
+  content: "\e90d";
+}
+.icon-patient-in-high-red:before {
+  content: "\e912";
+  color: #fe5759;
+  font-size: 15px;
+  margin-left: 5px;
+}
+.icon-patient-in-high-red-survey:before {
+  content: "\e913";
+  color: #fe5759;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: -7px;
+}
+.icon-reviewed-surveys:before {
+  content: "\e90e";
+  cursor: pointer;
+}
+.icon-survey-requests:before {
+  content: "\e90f";
+}
+.icon-unanswered-survey:before {
+  content: "\e911";
+}
+.icon-chat:before {
+  content: "\e900";
+}

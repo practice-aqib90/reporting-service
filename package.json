@@ -1,0 +1,34 @@
+{
+  "name": "reporting-service",
+  "version": "1.0.0",
+  "description": "PDF report generator utility",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "start": "node dist/app.js",
+    "build:ui": "cd src/UI && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://AJawed:rov5pcncxe63yfjwt4hhssv3pytwhrnbgov72ds3leqotjx3ihla@dev.azure.com/PainScript/PainScript-Phase2/_git/reporting-service"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-cache": "^5.1.2",
+    "path": "^0.12.7",
+    "puppeteer": "^14.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.36",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
+}
